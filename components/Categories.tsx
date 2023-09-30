@@ -2,7 +2,7 @@
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
-import { categoryFilters } from "@/constant";
+// import { categoryFilters } from "@/constant";
 
 const Categories = () => {
   const router = useRouter();
@@ -18,7 +18,8 @@ const Categories = () => {
   return (
     <div className="flexBetween w-full gap-5 flex-wrap">
       <ul className="flex gap-2 overflow-auto">
-        {categoryFilters.map((filter) => (
+        Makan
+        {/* {categoryFilters.map((filter) => (
           <button
             key={filter}
             type="button"
@@ -31,7 +32,7 @@ const Categories = () => {
           >
             {filter}
           </button>
-        ))}
+        ))} */}
       </ul>
     </div>
   );
